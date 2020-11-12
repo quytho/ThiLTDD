@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <RelativeLayout
+
+        android:layout_width="match_parent"
+        android:layout_height="300dp"
+        android:id="@+id/rl_header"
+        android:background="#BDB7B7"
+        >
+        <ImageView
+            android:layout_marginTop="100dp"
+            android:layout_centerHorizontal="true"
+            android:id="@+id/im_click"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:src="@drawable/bt"/>
+        <TextView
+            android:id="@+id/tv_click"
+            android:layout_below="@+id/im_click"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:textSize="20sp"
+            android:textColor="@color/black"
+            android:text="Ten"/>
+    </RelativeLayout>
+    <LinearLayout
+        android:layout_marginTop="30dp"
+        android:layout_below="@+id/rl_header"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        >
+        <TextView
+            android:gravity="center"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Phone"
+            android:textSize="12sp"/>
+        <LinearLayout
+            android:layout_marginBottom="15dp"
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="40dp">
+        <TextView
+            android:gravity=""
+            android:layout_width="300dp"
+            android:layout_height="match_parent"
+            android:text="0889198108"
+            android:textSize="12sp"/>
+
+        <ImageView
+            android:layout_gravity="right"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:src="@drawable/ic_launcher_background" />
+    </LinearLayout>
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="40dp">
+            <TextView
+                android:gravity=""
+                android:layout_width="300dp"
+                android:layout_height="match_parent"
+                android:text="0889198108"
+                android:textSize="12sp"/>
+
+            <ImageView
+                android:layout_gravity="right"
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:src="@drawable/ic_launcher_background" />
+        </LinearLayout>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_marginTop="170dp"
+        android:layout_below="@+id/rl_header"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        >
+        <TextView
+            android:gravity="center"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Record"
+            android:textSize="12sp"/>
+        <LinearLayout
+            android:layout_marginBottom="15dp"
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="40dp">
+            <TextView
+                android:gravity=""
+                android:layout_width="300dp"
+                android:layout_height="match_parent"
+                android:text="Cuộc gọi nhỡ"
+                android:textSize="12sp"/>
+
+            <TextView
+                android:gravity="center_vertical"
+                android:layout_gravity="right"
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:text="20:58"/>
+        </LinearLayout>
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="40dp">
+            <TextView
+                android:gravity=""
+                android:layout_width="300dp"
+                android:layout_height="match_parent"
+                android:text="Cuộc gọi đén"
+                android:textSize="12sp"/>
+
+            <TextView
+                android:gravity="center_vertical"
+                android:layout_gravity="right"
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:text="20:58"/>
+        </LinearLayout>
+    </LinearLayout>
+</RelativeLayout>
